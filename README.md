@@ -129,7 +129,7 @@ setInterval(() => {
 #### d) Browser / UMD
 
 ```html
-<script src="path/libs/loom/loom.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/FhyLabs/loom@v1.0.0/loom.umd.js"></script>
 <script>
   const loom = new Loom({
     url: "ws://localhost:8080",

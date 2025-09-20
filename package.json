@@ -1,0 +1,30 @@
+{
+  "name": "loom",  
+  "version": "1.0.0",
+  "description": "Loom is a super-fast, lightweight, and secure real-time library for data synchronization between clients and services.",
+  "main": "./esm/Loom.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FhyLabs/loom.git"
+  },
+  "keywords": [
+    "loom",
+    "realtime",
+    "sync",
+    "websocket",
+    "quic",
+    "crdt",
+    "ot",
+    "low-latency",
+    "transport"
+  ],
+  "author": "FhyLabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FhyLabs/loom/issues"
+  },
+  "homepage": "https://github.com/FhyLabs/loom#readme"
+}
