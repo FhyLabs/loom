@@ -35,7 +35,7 @@ Each layer in Loom is designed to balance speed, reliability, and security witho
 ## 💿 Installation
 
 ```bash
-npm install loom
+npm i @fhylabs/loom
 ```
 
 ---

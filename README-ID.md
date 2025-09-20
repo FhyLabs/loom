@@ -35,7 +35,7 @@ Setiap lapisan di Loom dirancang untuk menyeimbangkan kecepatan, keandalan, dan 
 ## 💿 Instalasi
 
 ```bash
-npm install loom
+npm i @fhylabs/loom
 ```
 
 ---
