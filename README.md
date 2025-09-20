@@ -46,7 +46,7 @@ npm install loom
 
 ```javascript
 // ESM
-import { LoomServer } from "loom/esm/LoomServer.js";
+import { LoomServer } from "@fhylabs/loom/esm/LoomServer.js";
 
 LoomServer.getInstance({
   host: "localhost",
@@ -76,7 +76,7 @@ const loom = new Loom({
 #### b) ESM (Node.js / Modern bundler)
 
 ```javascript
-import { Loom } from "loom/esm/Loom.js";
+import { Loom } from "@fhylabs/loom/esm/Loom.js";
 
 const loom = new Loom({
   url: "ws://localhost:8080",
@@ -104,7 +104,7 @@ setInterval(() => {
 #### c) CJS (Node.js with require)
 
 ```javascript
-const { Loom } = require("loom/cjs/Loom.cjs");
+const { Loom } = require("@fhylabs/loom/cjs/Loom.cjs");
 
 const loom = new Loom({
   url: "ws://localhost:8080",
@@ -215,6 +215,6 @@ loom.disconnect();
 
 ## 💡 Notes
 
-* **CJS client**: access `.cjs` files in `loom/cjs/`
-* **ESM client**: access `.js` files in `loom/esm/`
-* **Browser**: use **UMD** (`path/libs/loom/loom.umd.js`)
+* **CJS client**: access `.cjs` files in `@fhylabs/loom/cjs/`
+* **ESM client**: access `.js` files in `@fhylabs/loom/esm/`
+* **Browser**: use **UMD** (`https://cdn.jsdelivr.net/gh/FhyLabs/loom@v1.0.0/loom.umd.js`)
